@@ -1,7 +1,7 @@
 
 # This is a variable created to be added to story by the next team member
 variable "mukesh-var-001" {
-  default = "this variable is for terraform modules training"
+  default = "this training is going too much, need a day break"
 }
 
 #This module contains the module information
