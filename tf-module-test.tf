@@ -3,7 +3,12 @@ variable "mukesh-var-001" {
 }
 
 
+module "mukesh-tf-001" {
+  source  = "git@github.com:sbatchu1/tf-exercise.git"
+  
 
-output "result_mukesh" {
-  value = var.mukesh-var-001
 }
+
+  output "result_mukesh" {
+      value = module.mukesh-tf-001.sai_msg
+  }
